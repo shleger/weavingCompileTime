@@ -19,7 +19,7 @@ public class TestTarget {
     }
 
     @LogMethod
-    public void test() {
+    private void test() {
         System.out.println("TestTarget.test()");
     }
 }
